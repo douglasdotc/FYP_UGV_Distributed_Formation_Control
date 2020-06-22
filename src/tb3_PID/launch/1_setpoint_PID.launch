@@ -1,0 +1,11 @@
+<launch>
+  <arg name="model" default="$(env TURTLEBOT3_MODEL)" doc="model type [burger, waffle, waffle_pi]"/>
+  <param name="model" value="$(arg model)"/>
+  <arg name="multi_robot_name" default=""/>
+  <param name="multi_robot_name" value="tb3_1"/>
+
+  <node pkg="tb3_PID" type="getkey_PID.py" name="getkey_PID"  output="screen">
+    <remap from="getkey_PID/odom" to="odom"/>
+  </node>
+
+</launch>

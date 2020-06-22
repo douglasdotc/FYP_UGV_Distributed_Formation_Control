@@ -1,0 +1,8 @@
+prefix=/home/thomaschan/TurtleBot3_FYP2020/install
+
+Name: turtlebot3_navigation
+Description: Description of turtlebot3_navigation
+Version: 1.2.1
+Cflags: 
+Libs: -L/home/thomaschan/TurtleBot3_FYP2020/install/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/thomaschan/TurtleBot3_FYP2020/devel
+
+Name: turtlebot3_slam
+Description: Description of turtlebot3_slam
+Version: 1.2.1
+Cflags: -I/home/thomaschan/TurtleBot3_FYP2020/src/turtlebot3/turtlebot3_slam/include
+Libs: -L/home/thomaschan/TurtleBot3_FYP2020/devel/lib 
+Requires: roscpp sensor_msgs

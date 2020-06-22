@@ -1,0 +1,43 @@
+#
+# Definition of all trackable objects
+# Identifier corresponds to Trackable ID set in Tracking Tools
+#
+rigid_bodies:
+    '1':
+        pose: tb3_1/pose
+        pose2d: tb3_1/ground_pose
+        child_frame_id: tb3_1/base_link
+        parent_frame_id: world
+        use_new_coordinates: false
+    '2':
+        pose: tb3_2/pose
+        pose2d: tb3_2/ground_pose
+        child_frame_id: tb3_2/base_link
+        parent_frame_id: world
+        use_new_coordinates: false
+    '3':
+        pose: tb3_3/pose
+        pose2d: tb3_3/ground_pose
+        child_frame_id: tb3_3/base_link
+        parent_frame_id: world
+        use_new_coordinates: false
+    '4':
+        pose: tb3_4/pose
+        pose2d: tb3_4/ground_pose
+        child_frame_id: tb3_4/base_link
+        parent_frame_id: world
+        use_new_coordinates: false
+    '5':
+        pose: tb3_5/pose
+        pose2d: tb3_5/ground_pose
+        child_frame_id: tb3_5/base_link
+        parent_frame_id: world
+        use_new_coordinates: false
+    '6':
+        pose: tb3_6/pose
+        pose2d: tb3_6/ground_pose
+        child_frame_id: tb3_6/base_link
+        parent_frame_id: world
+        use_new_coordinates: false
+optitrack_config:
+        multicast_address: 239.255.42.99

@@ -1,0 +1,2 @@
+mocap_optitrack:tb3_PID
+-DCATKIN_DEVEL_PREFIX=/home/thomaschan/TurtleBot3_FYP2020/devel -DCMAKE_INSTALL_PREFIX=/home/thomaschan/TurtleBot3_FYP2020/install -G Unix Makefiles
